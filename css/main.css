@@ -1,0 +1,65 @@
+img {
+  max-width: 100%;
+}
+
+p {
+  color: black;
+}
+
+h1, h2, h3, p, a, footer {
+/*  font-family: "Gill Sans", sans-serif; */
+  font-family: "Times", sans-serif;
+}
+
+h1, h2, h3, footer {
+  color: #5959EF;
+}
+
+a:link {
+  color: #5959EF;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #5959EF;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #5959EF;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #5959EF;
+  text-decoration: underline;
+}
+
+
+.quote {
+  text-align: center;
+  /* font-style: italic; */
+  margin-bottom: 3em;
+}
+
+.container {
+  max-width: 510px;
+  margin: 1em;
+  padding: 1em;
+  text-align: left;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+
+nav {
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  height: 4em;
+}
+
+
+}
