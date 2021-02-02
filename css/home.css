@@ -116,6 +116,11 @@ a {
   background: #ffffff;
 }
 
+#blocks p {
+  display: block;
+  background: #ffffff;
+}
+
 .btn-group button {
   background-color: #fff;
   border: 1px solid grey;
