@@ -169,6 +169,14 @@ a {
 }
 
 
+.random-image {
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+
 input:focus {outline: none;}
 .stamp {
   background: yellowgreen;
