@@ -121,6 +121,13 @@ a {
   background: #ffffff;
 }
 
+#blocks .list h3 {
+  border: 1px solid #E6E6E6;
+  padding: 8px;
+  display: block;
+}
+
+
 .btn-group button {
   background-color: #fff;
   border: 1px solid grey;
