@@ -119,6 +119,7 @@ a {
 #blocks p {
   display: block;
   background: #ffffff;
+  line-height: 12px;
 }
 
 #blocks .list h3 {
