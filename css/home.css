@@ -188,6 +188,11 @@ a {
 }
 
 
+.box {
+  width: 320px;
+  padding: 10px;
+  margin: 0; 
+}
 
 
 input:focus {outline: none;}
