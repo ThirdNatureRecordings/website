@@ -1,5 +1,5 @@
 body {
-  font-family: Flaco;
+  font-family: 'Trebuchet MS', sans-serif;
   background: #FFFFFF;
 }
 
@@ -8,7 +8,7 @@ h1, h2, h3, h4, p {
   margin: 0;
   font-weight: normal;
   font-size: 14px;
-  font-family: Flaco;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
   font-weight: normal;
   font-size: 14px;
   cursor: pointer;
-  font-family: Flaco;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 #main{
