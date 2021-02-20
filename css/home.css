@@ -1,15 +1,27 @@
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: Arial;
   background: #FFFFFF;
 }
 
-h1, h2, h3, h4, p {
+h2, h3, h4, p {
   padding: 0;
   margin: 0;
   font-weight: normal;
   font-size: 14px;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: Arial;
 }
+
+
+h1, {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Times;
+}
+
+
+
 
 a {
   color: #000;
@@ -17,7 +29,7 @@ a {
   font-weight: normal;
   font-size: 14px;
   cursor: pointer;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: Arial;
 }
 
 #main{
@@ -31,7 +43,6 @@ a {
     border-bottom: 1px solid black;
     margin-top: 5px;
     margin-bottom: 20px;
-    font-family: Times;
     text-align: left;
     padding-top: 5px;
     padding-right: 10px;
@@ -56,6 +67,7 @@ a {
   margin-bottom: 0;
   font-size: 42px;
   font-weight: normal;
+  font-family: Times;
 }
 
 #header-nav {
