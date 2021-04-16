@@ -45,7 +45,42 @@
                 <a href="mailto:thirdnature@protonmail.com" style="text-decoration: underline;">contact</a>
                 <br><br>
                 <script src="https://unpkg.com/@paybutton/paybutton@^1.1/dist/paybutton.js"></script>
-<div class="paybutton" to="qp2234vtmhl5km295gvnjm60yt84x2pxls9mngkxq4"></div>
+
+<div id="my_button"></div>
+
+<script>
+function mySuccessFunction(txid, amount) {
+  console.log( { txid, amount } );
+}
+
+function myTransactionFunction(txid, amount) {
+  console.log( 'Received: ' + amount );
+}
+
+var config = {
+  to: 'bitcoincash:qp2234vtmhl5km295gvnjm60yt84x2pxls9mngkxq4',
+  amount: 4.5,
+  goalAmount: 300000,
+  canEdit: false,
+  currency: 'AUD',
+  text: 'Tip Us a Coffee!',
+  hoverText: 'One BCHinno',
+  theme: {
+    palette: {
+      primary: '#ee8b2b',
+      secondary: '#fefbf8',
+      tertiary: '#504030'
+    }
+  },
+  animation: 'invert',
+  successText: 'Purchase Complete!',
+  onSuccess: mySuccessFunction,
+  onTransaction: myTransactionFunction,
+  randomSatoshis: true
+};
+
+PayButton.render(document.getElementById('my_button'), config);
+</script>
                 
                 
                 
