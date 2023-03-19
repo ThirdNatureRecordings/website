@@ -12,6 +12,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 main {
@@ -32,29 +33,15 @@ main {
   vertical-align: top;
 }
 
-.grid:hover, .grid:active, .grid:hover a {
+.grid:hover, .grid:focus, .grid:active {
   color: #5959EF;
   background-color: white;
-  /*font-weight: bold;*/
 }
 
-/*.backbutton {
-  padding: 10px;
-}*/
-
-.back-button a {
-  text-decoration: none;
+.grid:hover a, .grid:focus a, .grid:active a {
+  color: #5959EF;
 }
 
-.projects p {
-  padding: 10px;
-  width: 50%;
-}
-
-.releases p {
-  padding: 10px;
-  width: 50%;
-}
 
 img {
   width: 340px;
@@ -63,27 +50,22 @@ img {
 }
 
 
-
-
-
 @media (max-width: 600px) {
-  
-main {
 
+main {
     margin: auto;
     position: relative;
-    font-size: 14px;
-
-}
+  }
 
 
 .grid {
     margin: auto;
-    width: 340px;
-    height: 340px;
-   border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
     display: block;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
   }
 
 
@@ -92,5 +74,12 @@ main {
     height: 100%;
     object-fit: contain;
   }
+
+
+
+
+
+
+
 
 }
