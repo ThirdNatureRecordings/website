@@ -67,12 +67,25 @@ img {
 
 
 @media (max-width: 600px) {
-  .grid {
+  
+main {
+
     margin: auto;
     width: 75%;
     position: relative;
     font-size: 14px;
     border: 1px solid white;
+
+}
+
+
+.grid {
+    margin: auto;
+    width: 75%;
+    position: relative;
+    font-size: 14px;
+    border: 1px solid white;
+    display: block;
   }
 
 
@@ -80,10 +93,6 @@ img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-  }
-
-  .projects p, .releases p {
-    width: 100%;
   }
 
 }
