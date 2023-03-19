@@ -50,7 +50,15 @@ img {
 }
 
 
+
 @media (max-width: 600px) {
+
+
+body, a {
+  color: #5959EF;
+  background-color: white;
+}
+
 
 main {
     margin: auto;
@@ -59,13 +67,27 @@ main {
 
 
 .grid {
+    background-color: white;
     margin: auto;
-    width: 300px;
-    height: 300px;
-    border: 2px solid white;
+    width: 280px;
+    height: 280px;
+    border: 4px solid #5959EF;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     font-size: 14px;
+  }
+
+
+
+  @media(hover: hover) and (pointer: fine) {
+    .grid:hover, .grid:focus, .grid:active {
+      color: white;
+      background-color: #5959EF;
+    }
+
+    .grid:hover a, .grid:focus a, .grid:active a {
+      color: white;
+    }
   }
 
 
