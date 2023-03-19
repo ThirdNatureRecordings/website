@@ -74,18 +74,13 @@ main {
     width: 75%;
     position: relative;
     font-size: 14px;
-    border: 1px solid white;
 
 }
 
 
 .grid {
-    margin: auto;
-    width: 75%;
-    position: relative;
-    font-size: 14px;
-    border: 1px solid white;
-    display: block;
+   border: 2px solid white;
+    display: inline-block;
   }
 
 
