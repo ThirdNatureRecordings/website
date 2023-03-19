@@ -78,10 +78,12 @@ main {
 
 
 .grid {
-    width: 75%;
-    height: 75%;
+    margin: auto;
+    width: 340px;
+    height: 340px;
    border: 2px solid white;
-    display: inline-block;
+    display: block;
+    padding-bottom: 10px;
   }
 
 
