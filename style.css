@@ -79,6 +79,7 @@ main {
 
 .grid {
     width: 75%;
+    height: 75%;
    border: 2px solid white;
     display: inline-block;
   }
