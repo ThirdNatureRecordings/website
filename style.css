@@ -71,7 +71,6 @@ img {
 main {
 
     margin: auto;
-    width: 75%;
     position: relative;
     font-size: 14px;
 
@@ -79,6 +78,7 @@ main {
 
 
 .grid {
+    width: 75%;
    border: 2px solid white;
     display: inline-block;
   }
