@@ -81,6 +81,12 @@ main {
     font-size: 14px;
   }
 
+  
+  
+  iframe {
+      display:block;
+      width:100%;
+  }
 
 
   @media(hover: hover) and (pointer: fine) {
